@@ -15,7 +15,6 @@
 #include <cstdio>
 #include <stack>
 #include <algorithm>
-#include <list>
 #include <ctime>
 #include <numeric>
 #include <memory.h>
