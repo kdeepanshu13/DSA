@@ -6,16 +6,11 @@
 #include <math.h>
 #include <utility>
 #include <cmath>
-#include <set>
 #include <vector>
-#include <map>
 #include <cctype>
-#include <queue>
 #include <stdio.h>
 #include <cstdio>
-#include <stack>
 #include <algorithm>
-#include <list>
 #include <ctime>
 #include <numeric>
 #include <memory.h>
@@ -26,11 +21,6 @@
  
 using namespace std;
  
-typedef std::vector<int> vi;
-typedef std::vector<std::string> vs;
-typedef std::pair<int, int> pii;
-typedef std::set<int> si;
-typedef std::map<std::string, int> msi;
 
 vi PrefixFunction(string pattern){
 	int PatternLength = pattern.length() ;
