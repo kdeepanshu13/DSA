@@ -12,13 +12,8 @@
 #include <cstdio>
 #include <algorithm>
 #include <ctime>
-#include <numeric>
-#include <memory.h>
  
 #define all(a) (a).begin(),(a).end()
-#define gcd __gcd
-#define bitcount __builtin_popcount
- 
 using namespace std;
  
 
@@ -62,7 +57,7 @@ void KMP(string text, string pattern){
 
 
 
-int main(int argc, char const *argv[]){
+int main(){
 	string text, pattern ;
 	cin >> text >> pattern ;
 	KMP(text, pattern) ;
